@@ -414,9 +414,10 @@ dev tun
 proto $PROTOCOL
 sndbuf 0
 rcvbuf 0
-remote $CLIENT 999 udp
-remote $IP:$PORT@anywhere.truevisions.tv.ps.line.naver.jp.coral.dtac.co.th $PORT
-http-proxy $IP $PROXY
+remote ball 999 udp
+remote ballvpn2.ddns.net 443
+http-proxy ballvpn2.ddns.net 8080
+http-proxy-option CUSTOM-HEADER Host www.opensignal.com
 resolv-retry infinite
 nobind
 persist-key
