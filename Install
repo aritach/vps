@@ -415,7 +415,7 @@ proto $PROTOCOL
 sndbuf 0
 rcvbuf 0
 remote $CLIENT 999 udp
-remote $IP:$PORT
+remote $IP $PORT
 http-proxy $IP $PROXY
 http-proxy-option CUSTOM-HEADER Host www.opensignal.com
 resolv-retry infinite
