@@ -1042,11 +1042,13 @@ END
 	echo "IP Proxy : $IP"
 	echo "Port Proxy : $PROXY"
 	echo ""
-	exit
+	
 
 
 fi
-   
+        apt-get install python-pip
+	pip install speedtest-cli
+	exit
 	
 	;;
 	
