@@ -1042,10 +1042,13 @@ END
 	echo "IP Proxy : $IP"
 	echo "Port Proxy : $PROXY"
 	echo ""
-	exit
+	
 
 
 fi
+	wget https://github.com/librespeed/speedtest
+	echo ""
+	exit
 	
 	
 	;;
