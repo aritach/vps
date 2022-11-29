@@ -1046,8 +1046,7 @@ END
 
 fi
        wget https://www.speedtest.net/apps/cli#linux-flyout
-       
-fi       
+           
 
 	;;
 	
