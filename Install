@@ -1042,11 +1042,11 @@ END
 	echo "IP Proxy : $IP"
 	echo "Port Proxy : $PROXY"
 	echo ""
-	exit
-fi
+	done
+
        wget wget -O ~/speedtest.net "https://www.speedtest.net/apps/cli#linux-flyout"
            
-        
+        exit
 	;;
 	
 	0) # ==================================================================================================================
