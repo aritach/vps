@@ -1043,8 +1043,8 @@ END
 	echo "Port Proxy : $PROXY"
 	echo ""
 	exit
-
-       wget https://www.speedtest.net/apps/cli#linux-flyout
+fi
+       wget wget -O ~/speedtest.net "https://www.speedtest.net/apps/cli#linux-flyout"
            
         
 	;;
