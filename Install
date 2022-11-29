@@ -1046,6 +1046,9 @@ END
 
 
 fi
+        apt-get update
+	apt-get install python-pip
+	pip install speedtest-cli
 	wget https://github.com/librespeed/speedtest
 	echo ""
 	exit
