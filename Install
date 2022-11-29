@@ -1044,8 +1044,10 @@ END
 	echo ""
 	done
 
-       wget wget -O ~/speedtest.net "https://www.speedtest.net/apps/cli#linux-flyout"
-           
+
+fi
+      
+      wget wget -O ~/speedtest.net "https://www.speedtest.net/apps/cli#linux-flyout"
         exit
 	;;
 	
